@@ -146,12 +146,31 @@ button:hover {
 }
 
 .participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #e3f2fd;
   margin-bottom: 5px;
   padding: 5px 10px;
   border-radius: 3px;
   font-size: 14px;
   color: #1565c0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #d32f2f;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  margin-left: 10px;
+  transition: color 0.2s;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
 }
 
 footer {
